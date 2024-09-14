@@ -19,7 +19,7 @@ elif [[ "$current_wopi_list" == *"$ext_ip"* ]]; then
 
 # If the current WOPI allow list does not match the external IP, update it
 else
-    echo "DynDNS is not up to date, updating IP: New IP = $ext_ip"
+    echo "Not up to date, updating IP: New IP = $ext_ip"
     
     # Use bash -c to ensure proper command execution
     docker exec nextcloud bash -c "occ config:app:set richdocuments wopi_allowlist --value=\"$ext_ip\""
