@@ -13,7 +13,7 @@ This script automatically updates the WOPI allow list in Nextcloud Office with y
 - **Docker**: The script interacts with a Docker container running Nextcloud.
 - **curl**: Used for fetching the current IP address.
 
-## Setup
+## Generic Setup
 
 1. **Create a new file**: Save the script as `update_wopi_ip.sh`.
 
