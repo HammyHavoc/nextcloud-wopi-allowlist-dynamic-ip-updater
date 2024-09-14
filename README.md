@@ -1,6 +1,6 @@
 # Nextcloud WOPI Allowlist Dynamic IP Updater
 
-This script automatically updates the WOPI allow list in Nextcloud Office with your current external IP address. It's designed for environments where the external IP is dynamic and frequently changes. I'm using it as a User Script on Unraid, but it will work elsewhere too. Whilst it's written for Docker containers, there's no reason why you can't tweak the command to use it as you see fit outside of Docker.
+This script automatically updates the WOPI allow list in Nextcloud Office with your current external IP address. It's designed for environments where the external IP is dynamic and frequently changes. I'm using it as a User Script on Unraid, but it will work elsewhere too. Whilst it's written for Docker containers, there's no reason why you can't tweak [line 25](https://github.com/HammyHavoc/nextcloud-wopi-allowlist-dynamic-ip-updater/blob/d385683c61a3040e78de92cf52e20ab4712b0a05/update_wopi_ip.sh#L25) to use it as you see fit outside of Docker.
 
 ## Features
 
