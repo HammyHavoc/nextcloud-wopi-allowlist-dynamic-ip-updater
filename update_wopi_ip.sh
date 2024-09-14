@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Get the current external IP from a reliable service
+# Get the current external IP from ipify
 ext_ip=$(curl -s https://api.ipify.org)
 
 # Log the external IP for debugging
